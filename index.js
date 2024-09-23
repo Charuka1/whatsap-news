@@ -65,9 +65,9 @@ ${data.desc}
 ${data.time}
 ●━━━━━━━━━━━━━━━━━━━●
 
-🗞️ *News From hirunews.lk*
+> 🗞️ *News From hirunews.lk*
 
-🔗 *Created By mr charuka*
+> 🔗 *Created By mr charuka*
 
 📰 *Group Link* :- https://chat.whatsapp.com/I89POhTW6cN03tC01Aoo47
 
