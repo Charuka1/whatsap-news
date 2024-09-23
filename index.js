@@ -59,21 +59,19 @@ const request = require('@cypress/request');
      let response = await fetch('https://hirunews-api-x.cleverapps.io/api/latest'); 
      let data = await response.json(); 
 let mg =`*${data.title}* 
-●━━━━━━━━━━━━━━━━━━━━━●  
+●━━━━━━━━━━━━━━━━━━━●  
 ${data.desc} 
-●━━━━━━━━━━━━━━━━━━━━━● 
+●━━━━━━━━━━━━━━━━━━━● 
 ${data.time}
-●━━━━━━━━━━━━━━━━━━━━━●
+●━━━━━━━━━━━━━━━━━━━●
 
 🗞️ *News From hirunews.lk*
 
-🔗 *Created By Jithula Bhasitha*
-
-📍 *Team Bit X*
+🔗 *Created By mr charuka*
 
 📰 *Group Link* :- https://chat.whatsapp.com/I89POhTW6cN03tC01Aoo47
 
-●━━━━━━━━━━━━━━━━━━━━━●`
+●━━━━━━━━━━━━━━━━━━━●`
          let newss = await news1.findOne({ id: '123' }) 
   
      if (!newss) { 
