@@ -56,7 +56,7 @@ const request = require('@cypress/request');
   
  async function news() { 
   
-     let response = await fetch('https://hirunews.aquaapk-dl.repl.co/api/latest'); 
+     let response = await fetch('https://hirunews-api-x.cleverapps.io/api/latest'); 
      let data = await response.json(); 
 let mg =`*${data.title}* 
 ●━━━━━━━━━━━━━━━━━━━●  
